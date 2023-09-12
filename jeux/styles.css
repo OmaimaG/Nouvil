@@ -1,0 +1,65 @@
+body {
+    background-color: #30064f
+    ;
+    font-family: Arial, sans-serif;
+    color: #333;; /* Cette ligne définira la couleur du texte en blanc pour assurer une bonne lisibilité sur un fond noir */
+}
+h1 {
+     color : white ;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 35px;
+    
+}
+.container-fluid {
+    background : #DCDCDC ;
+}
+.full {
+width :100%;
+
+}
+.number {  margin-top: 35px;
+    gap :1rem;
+    padding-right: 0.25rem;
+
+}
+#total {  }
+#total::before {
+    content: "somme: ";
+
+}
+
+
+.bt { background :#9400D3;
+border: none;
+border-radius : 100px;
+font-weight: bold;
+cursor: pointer;
+
+}
+
+.bt1 {
+    background : #9400D3;
+    border: none;
+    border-radius : 100px;
+    width : 500px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.up { background : #9400D3;
+    border: none;
+    border-radius : 100px;}
+    
+  
+   
+input {
+    margin-top: 35px;
+    border: none;
+    background : #DCDCDC ;
+    padding :2erm;
+    color : black ;
+}
+.row {  margin-top: 35px;}
+.table { background : none ;}
